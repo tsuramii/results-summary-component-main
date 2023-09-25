@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body class="font-hanken">
+    <div class="lg:flex items-center justify-center lg:h-[95vh]">
+    <div class="flex flex-col max-w-xl lg:flex-row lg:shadow-2xl lg:rounded-e-2xl lg:w-1/2">
+    <section
+      class="flex flex-col w-full bg-gradient-to-b from-lighslateblue to-lightroyalblue text-center items-center rounded-b-3xl lg:rounded-3xl"
+    >
+      <h1 class="text-white/60 my-4 lg:my-6 lg:text-lg">Your Result</h1>
+      <p
+        class="w-[9rem] h-[9rem] flex flex-col rounded-full bg-gradient-to-b from-lightroyalblue justify-center items-center"
+      >
+        <span class="text-white text-6xl font-bold">76</span>
+        <span class="text-white/30 text-sm">of 100</span>
+      </p>
+      <h2 class="text-white text-xl py-2 lg:py-5">Great</h2>
+      <p class="text-white/50 pb-10 max-w-[16rem] lg:max-w-[12rem] text-sm">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
+
+    <section class="flex flex-col p-6 w-full">
+      <h1 class="font-bold mb-5">Summary</h1>
+      <ul
+        class="[&>li]:rounded-lg [&>li]:p-3 space-y-4 [&>li>p]:flex [&>li>p]:justify-between"
+      >
+        <li class="bg-lightred/10 ">
+          <p class="font-bold ">
+            <span class="text-lightred"><img src="./assets/images/icon-reaction.svg" class="inline px-2 h-5" alt="reaction icon">Reaction</span>
+            <span class="text-darkgrayblue"> 80 <span class="text-darkgrayblue/50"> / 100</span></span> 
+          </span>
+          </p>
+        </li>
+        <li class="bg-orangeyyellow/10 ">
+          <p class="font-bold ">
+            <span class="text-orangeyyellow"><img src="./assets/images/icon-memory.svg" class="inline px-2 h-5" alt="memory icon">Memory</span>
+            <span class="text-darkgrayblue"> 92 <span class="text-darkgrayblue/50"> / 100</span></span> 
+          </span>
+          </p>
+        </li>
+        <li class="bg-greenteal/10 ">
+          <p class="font-bold ">
+            <span class="text-greenteal"><img src="./assets/images/icon-verbal.svg" class="inline px-2 h-5" alt="reaction icon">Verbal</span>
+            <span class="text-darkgrayblue"> 61 <span class="text-darkgrayblue/50"> / 100</span></span> 
+          </span>
+          </p>
+        </li>
+        <li class="bg-persianblue/10 ">
+          <p class="font-bold ">
+            <span class="text-persianblue"><img src="./assets/images/icon-visual.svg" class="inline px-2 h-5" alt="reaction icon">Visual</span>
+            <span class="text-darkgrayblue"> 72 <span class="text-darkgrayblue/50"> / 100</span></span> 
+          </span>
+          </p>
+        </li>
+        <button class="bg-darkgrayblue text-center w-full p-3 text-white rounded-3xl hover:bg-gradient-to-b from-lighslateblue to-lightroyalblue">Continue</button>
+    </section>
+  </div>
+</div>
+    <footer class="text-center p-2 h-[5vh]">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+       class="text-persianblue underline underline-offset-2" >Frontend Mentor</a
+      >. Coded by <a href="https://linkedin.com/in/luca-di-marco" target="_blank" class="text-persianblue underline underline-offset-2">tsu</a>.
+    </footer>
+  </body>
+</html>
