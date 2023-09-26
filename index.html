@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
   <link rel="stylesheet" href="./output.css" />
   <title>Frontend Mentor | Results summary component</title>
+  <script src="./script.js" defer></script>
 </head>
 
 <body class="font-hanken">
@@ -29,50 +30,21 @@
 
       <section class="flex flex-col p-6 w-full">
         <h1 class="font-bold mb-5">Summary</h1>
-        <ul class="[&>li]:rounded-lg [&>li]:p-3 space-y-4 [&>li>p]:flex [&>li>p]:justify-between">
-          <li class="bg-lightred/10 ">
-            <p class="font-bold ">
-              <span class="text-lightred"><img src="./assets/images/icon-reaction.svg" class="inline px-2 h-5"
-                  alt="reaction icon">Reaction</span>
-              <span class="text-darkgrayblue"> 80 <span class="text-darkgrayblue/50"> / 100</span></span>
-              </span>
-            </p>
-          </li>
-          <li class="bg-orangeyyellow/10 ">
-            <p class="font-bold ">
-              <span class="text-orangeyyellow"><img src="./assets/images/icon-memory.svg" class="inline px-2 h-5"
-                  alt="memory icon">Memory</span>
-              <span class="text-darkgrayblue"> 92 <span class="text-darkgrayblue/50"> / 100</span></span>
-              </span>
-            </p>
-          </li>
-          <li class="bg-greenteal/10 ">
-            <p class="font-bold ">
-              <span class="text-greenteal"><img src="./assets/images/icon-verbal.svg" class="inline px-2 h-5"
-                  alt="reaction icon">Verbal</span>
-              <span class="text-darkgrayblue"> 61 <span class="text-darkgrayblue/50"> / 100</span></span>
-              </span>
-            </p>
-          </li>
-          <li class="bg-persianblue/10 ">
-            <p class="font-bold ">
-              <span class="text-persianblue"><img src="./assets/images/icon-visual.svg" class="inline px-2 h-5"
-                  alt="reaction icon">Visual</span>
-              <span class="text-darkgrayblue"> 72 <span class="text-darkgrayblue/50"> / 100</span></span>
-              </span>
-            </p>
-          </li>
+        <ul class="[&>li]:rounded-lg [&>li]:p-3 space-y-4 [&>li>p]:flex [&>li>p]:justify-between" id="summaryList">
+          <!-- JS fills this -->
         </ul>
         <button
-          class="bg-darkgrayblue text-center w-full p-3 mt-5 text-white rounded-3xl hover:bg-gradient-to-b from-lighslateblue to-lightroyalblue">Continue</button>
+          class="bg-darkgrayblue text-center w-full p-3 mt-5 text-white rounded-3xl hover:bg-gradient-to-b from-lighslateblue to-lightroyalblue">
+          Continue
+        </button>
       </section>
     </main>
   </div>
   <footer class="text-center p-2 h-[5vh]">
     Challenge by
     <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-      class="text-persianblue underline underline-offset-2">Frontend Mentor</a>. Coded by <a
-      href="https://linkedin.com/in/luca-di-marco" target="_blank"
+      class="text-persianblue underline underline-offset-2">Frontend Mentor</a>. Coded by
+    <a href="https://linkedin.com/in/luca-di-marco" target="_blank"
       class="text-persianblue underline underline-offset-2">tsu</a>.
   </footer>
 </body>
